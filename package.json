@@ -29,6 +29,7 @@
     "remotion": "^4.0.522"
   },
   "devDependencies": {
+    "@remotion/cli": "^4.0.522",
     "@types/node": "^22.20.1",
     "@types/react": "^18.3.31",
     "@types/react-dom": "^18.3.7",
