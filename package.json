@@ -1,0 +1,37 @@
+{
+  "name": "claude",
+  "version": "1.0.0",
+  "description": "A small repository used to practice the full GitHub pull request workflow: cloning, branching, committing changes, and opening a PR.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "remotion preview src/Root.tsx",
+    "build": "remotion render src/Root.tsx",
+    "render": "remotion render src/Root.tsx HelloWorld output.mp4",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonatasgsalomao-bot/first-pr-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jonatasgsalomao-bot/first-pr-practice/issues"
+  },
+  "homepage": "https://github.com/jonatasgsalomao-bot/first-pr-practice#readme",
+  "dependencies": {
+    "@remotion/gif": "^4.0.522",
+    "@remotion/transitions": "^4.0.522",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "remotion": "^4.0.522"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.3"
+  }
+}
