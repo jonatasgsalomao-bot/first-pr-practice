@@ -1,6 +1,6 @@
 # first-pr-practice
 
-A small repository used to practice the full GitHub pull request workflow: cloning, branching, commiting changes, and opening a PR.
+A small repository used to practice the full GitHub pull request workflow: cloning, branching, committing changes, and opening a PR.
 
 ## Getting started
 
