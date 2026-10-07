@@ -4,9 +4,11 @@
   "description": "A small repository used to practice the full GitHub pull request workflow: cloning, branching, committing changes, and opening a PR.",
   "main": "index.js",
   "scripts": {
-    "dev": "remotion preview src/Root.tsx",
-    "build": "remotion render src/Root.tsx",
-    "render": "remotion render src/Root.tsx HelloWorld output.mp4",
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts CampaignAnimations out/campaign.mov",
+    "render:coracao-intro": "remotion render src/index.ts DiaCoracao-Intro out/dia-coracao/DiaCoracao_Intro_1080x1920.mov",
+    "render:coracao-final": "remotion render src/index.ts DiaCoracao-Final out/dia-coracao/DiaCoracao_Final_1080x1920.mov",
+    "preview:coracao": "PREVIEW=1 remotion render src/index.ts DiaCoracao-Intro out/dia-coracao/preview_intro.mp4 --codec=h264 --pixel-format=yuv420p --image-format=jpeg && PREVIEW=1 remotion render src/index.ts DiaCoracao-Final out/dia-coracao/preview_final.mp4 --codec=h264 --pixel-format=yuv420p --image-format=jpeg",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

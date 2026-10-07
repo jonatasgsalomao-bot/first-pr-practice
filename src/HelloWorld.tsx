@@ -1,9 +1,9 @@
 import React from 'react';
 import { useVideoConfig } from 'remotion';
 
-interface HelloWorldProps {
+type HelloWorldProps = {
 	title: string;
-}
+};
 
 export const HelloWorld: React.FC<HelloWorldProps> = ({ title }) => {
 	const { width, height } = useVideoConfig();
